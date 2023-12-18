@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgroundImg {
+  background-image: url(../public/IMG_9238.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: black;
+}
+
+a.active {
+  color: red;
+}
+
+.backgroundColour {
+  background-image: url("https://img.freepik.com/free-photo/beige-abstract-wallpaper-background-image_53876-102527.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
