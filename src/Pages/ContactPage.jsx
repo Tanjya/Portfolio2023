@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="backgroundColour ">
       <Nav />
-      <div className=" flex justify-center py-44 gap-56">
+      <div className="sm:space-y-10 md:flex lg:flex justify-center py-44 gap-56">
         <div>
           <div className="space-y-5 ">
             <h1 className="text-4xl font-bold">Contact Me</h1>
@@ -19,15 +19,7 @@ const ContactPage = () => {
               />
               <p>Tanjya26@gmail.com</p>
             </div>
-            {/* phone number */}
-            <div className="flex gap-2">
-              <img
-                className="w-5"
-                src="https://img.icons8.com/?size=96&id=58pGdHAS6Va3&format=gif"
-                alt=""
-              />
-              <p>07305443412</p>
-            </div>
+
             {/*social media */}
             <div className="flex gap-3">
               <img
@@ -45,15 +37,19 @@ const ContactPage = () => {
                 src="https://img.icons8.com/?size=80&id=ePCoYG3YxzfX&format=png"
                 alt=""
               />
-              <img
-                className="w-5"
-                src="https://img.icons8.com/?size=96&id=13930&format=png"
-                alt=""
-              />
+              <a href="https://www.linkedin.com/in/tanjya/">
+                <img
+                  className="w-5"
+                  src="https://img.icons8.com/?size=96&id=13930&format=png"
+                  alt=""
+                />
+              </a>
             </div>
-            <button className="transition duration-300 ease-in-out font-medium rounded border border-red-500 text-sm py-1 px-3 mt-2 hover:bg-red-500">
-              Download CV
-            </button>
+            <a href="https://docs.google.com/document/u/0/d/1S-_aJlYDyioD8HU2NWvnnlwuWsRngdY5/edit?dls=true&usp=gmail_attachment_preview">
+              <button className="transition duration-300 ease-in-out font-medium rounded border border-red-500 text-sm py-1 px-3 mt-2 hover:bg-red-500">
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
         <div className="space-y-3 pb-3">

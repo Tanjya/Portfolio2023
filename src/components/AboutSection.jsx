@@ -6,8 +6,12 @@ const AboutSection = () => {
       <h1 className="text-center text-3xl font-bold">
         <span className="border-b-2 border-red-500 pb-2">Abo</span>ut Me
       </h1>
-      <div className="flex justify-center px-32 gap-7 pb-28 py-10">
-        <img className="w-5/12" src={AboutImg} alt="" />
+      <div className="lg:flex justify-center px-32 gap-7 pb-28 py-10 ">
+        <img
+          className="sm:w-7/12 md:w-4/12 w-5/12 sm:items-center"
+          src={AboutImg}
+          alt=""
+        />
         <div>
           <p className="pb-5  p-5 rounded mt-10">
             I am a self taught full-stack developer that can maintain web
@@ -27,7 +31,7 @@ const AboutSection = () => {
             <summary className="m-1 font-medium text-red-500 underline py-4">
               My Skills
             </summary>
-            <div className="flex justify-center gap-3">
+            <div className="md:flex lg:flex justify-center gap-3">
               <img
                 className="w-10"
                 src="https://img.icons8.com/?size=96&id=20909&format=png"

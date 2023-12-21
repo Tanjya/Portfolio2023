@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 const ProjectPage = () => {
   return (
@@ -8,8 +9,8 @@ const ProjectPage = () => {
       <h1 className="text-3xl font-bold pt-20 px-20 text-center pb-10 ">
         My Projects
       </h1>
-      <div className="flex justify-center gap-5 pb-44 text-white">
-        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4">
+      <div className=" sm:flex  sm:justify-center lg:flex lg:justify-center gap-5 pb-44 text-white">
+        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4 sm:h-full">
           <img
             className="w-4/12"
             src="https://img.icons8.com/?size=128&id=j82xBWDwDN3S&format=png"
@@ -35,7 +36,7 @@ const ProjectPage = () => {
             </a>
           </div>
         </div>
-        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4">
+        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4 sm:h-full">
           <img
             className="w-4/12"
             src="https://www.somo.uk/wp-content/uploads/2016/12/pwc-logo.png"
@@ -62,7 +63,7 @@ const ProjectPage = () => {
             </a>
           </div>
         </div>
-        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4">
+        <div className="bg-neutral-800 p-5 w-80 h-96 space-y-4 sm:h-full">
           <img
             className="w-4/12"
             src="https://img.icons8.com/?size=160&id=IkmMK8SjKoY9&format=png"
@@ -89,6 +90,7 @@ const ProjectPage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

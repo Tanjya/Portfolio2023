@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="flex items-center justify-between px-28  pt-9 ">
+    <div className="md:flex lg:flex items-center justify-between px-28  pt-9 ">
       <h1 className="font-bold text-3xl">
         <span className="text-red-500">T</span>anjya.
       </h1>
