@@ -24,7 +24,7 @@ const ProjectPage = () => {
             retrieved from an API.
           </p>
           <div className="flex justify-start gap-4">
-            <a href="https://655f71338eef9f04737e858a--dashing-pithivier-08eaf0.netlify.app/">
+            <a href="https://netflix-project-clone1.netlify.app/">
               <button className="transition duration-300 ease-in-out font-medium rounded border border-red-500 text-sm py-1 px-3 mt-2 hover:bg-red-500">
                 Website
               </button>
@@ -50,7 +50,7 @@ const ProjectPage = () => {
             alias laudantium.
           </p>
           <div className="flex justify-start gap-4">
-            <a href="https://creative-medovik-8d97da.netlify.app/">
+            <a href="https://pwc-clone.netlify.app/">
               {" "}
               <button className="transition duration-300 ease-in-out font-medium rounded border border-red-500 text-sm py-1 px-3 mt-2 hover:bg-red-500">
                 Website
@@ -77,7 +77,7 @@ const ProjectPage = () => {
             alias laudantium.
           </p>
           <div className="flex justify-start gap-4">
-            <a href="https://655e808a01df1a7f5a2f2784--playful-kringle-0269ef.netlify.app/">
+            <a href="https://restaurant-tanjya.netlify.app/">
               <button className="transition duration-300 ease-in-out font-medium rounded border border-red-500 text-sm py-1 px-3 mt-2 hover:bg-red-500">
                 Website
               </button>
